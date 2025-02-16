@@ -17,7 +17,6 @@ import demo.wrappers.Wrappers;
 public class SearchResultsPage {
     private WebDriver driver;
 
-    // Constructor initializes the WebDriver and AjaxElementLocatorFactory
     public SearchResultsPage(WebDriver driver) {
         this.driver = driver;
         AjaxElementLocatorFactory ajax = new AjaxElementLocatorFactory(driver, 10);
@@ -48,7 +47,7 @@ public class SearchResultsPage {
         try {
             WebElement ratingCheckbox = driver.findElement(By.xpath(xpath));
             Wrappers.clickOnElement(driver, ratingCheckbox);
-            WaitUtils.sleep(1000);
+            WaitUtils.sleep(2000);
         } catch (Exception e) {
             System.err.println("Customer rating checkbox not found: " + e.getMessage());
         }

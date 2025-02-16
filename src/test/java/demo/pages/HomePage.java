@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
+
+import demo.Utils.WaitUtils;
 import demo.wrappers.Wrappers;
 
 public class HomePage {
@@ -35,6 +37,7 @@ public class HomePage {
         try {
             Wrappers.sendKeys(driver, searchInputTextbox, product);
             searchInputTextbox.submit();
+            WaitUtils.sleep(2000);
             return true;
         } catch (Exception e) {
             System.err.println("Error while searching for product: " + e.getMessage());

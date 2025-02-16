@@ -15,7 +15,6 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void beforeTestMethod(Method method) {
-        // Start the test in the ExtentReports
         startTest(method.getName());
     }
 
