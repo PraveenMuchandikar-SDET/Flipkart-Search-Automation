@@ -1,0 +1,8 @@
+<configuration>
+    <report>
+        <theme>standard</theme>
+        <title>Flipkart Test Suite</title>
+        <name>Test for Flipkart</name>
+        <encoding>utf-8</encoding>
+    </report>
+</configuration>
