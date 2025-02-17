@@ -114,7 +114,8 @@ public class SearchResultsPage {
                 details.put("imageUrl", imageElement.getAttribute("src"));
                 
                 if (!reviewsElement.getText().isEmpty()) {
-                    details.put("reviews", Integer.parseInt(reviewsElement.getText().replaceAll("[^0-9]", "")));
+                    int reviewCount = Integer.parseInt(reviewsElement.getText().replaceAll("[^0-9]", ""));
+                    details.put("reviews", reviewCount);
                 } else {
                     continue;
                 }
