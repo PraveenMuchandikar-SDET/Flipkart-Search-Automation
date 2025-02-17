@@ -104,6 +104,7 @@ public class SearchResultsPage {
         List<WebElement> searchResults = driver.findElements(By.xpath("//div[@class='slAVV4']"));
         for (WebElement item : searchResults) {
             try {
+                WaitUtils.waitForVisibility(driver, item);
                 WebElement titleElement = item.findElement(By.xpath(".//a[@class='wjcEIp']"));
                 WebElement imageElement = item.findElement(By.xpath(".//a[@class='VJA3rP']//img"));
                 WebElement reviewsElement = item.findElement(By.xpath(".//span[@class='Wphh3N']"));

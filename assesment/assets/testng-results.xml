@@ -2,16 +2,16 @@
 <testng-results total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-16T16:50:04Z" name="Test Suite for Buildout" finished-at="2025-02-16T16:50:58Z" duration-ms="54547">
+  <suite started-at="2025-02-17T04:53:57Z" name="Test Suite for Buildout" finished-at="2025-02-17T04:54:28Z" duration-ms="31154">
     <groups>
     </groups>
-    <test started-at="2025-02-16T16:50:04Z" name="Test Cases for Buildout" finished-at="2025-02-16T16:50:58Z" duration-ms="54547">
+    <test started-at="2025-02-17T04:53:57Z" name="Test Cases for Buildout" finished-at="2025-02-17T04:54:28Z" duration-ms="31154">
       <class name="demo.TestCases">
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:04Z" name="startBrowser" finished-at="2025-02-16T22:20:06Z" duration-ms="2238" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:23:57Z" name="startBrowser" finished-at="2025-02-17T10:24:00Z" duration-ms="2653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:06Z" name="beforeTestMethod" finished-at="2025-02-16T22:20:06Z" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:00Z" name="beforeTestMethod" finished-at="2025-02-17T10:24:00Z" duration-ms="118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method signature="testCase01()[pri:1, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:06Z" name="testCase01" description="Search for &#039;washing machine&#039;, sort by &#039;Popularity&#039;, and count items with ratings &lt;= 4." finished-at="2025-02-16T22:20:13Z" duration-ms="6650" status="PASS">
+        <test-method signature="testCase01()[pri:1, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:00Z" name="testCase01" description="Search for &#039;washing machine&#039;, sort by &#039;Popularity&#039;, and count items with ratings &lt;= 4." finished-at="2025-02-17T10:24:11Z" duration-ms="11565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase01 -->
-        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:13Z" name="afterTestMethod" finished-at="2025-02-16T22:20:13Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:11Z" name="afterTestMethod" finished-at="2025-02-17T10:24:11Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,11 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-        <test-method signature="testCase02()[pri:2, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:13Z" name="testCase02" description="Search for &#039;iPhone&#039; and print the titles and discount % for items above 17% discount." finished-at="2025-02-16T22:20:18Z" duration-ms="5270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase02 -->
-        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:13Z" name="beforeTestMethod" finished-at="2025-02-16T22:20:13Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:11Z" name="beforeTestMethod" finished-at="2025-02-17T10:24:11Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,18 +48,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:18Z" name="afterTestMethod" finished-at="2025-02-16T22:20:18Z" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testCase02 status=SUCCESS method=TestCases.testCase02()[pri:2, instance:demo.TestCases@6e6d5d29] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="testCase02()[pri:2, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:11Z" name="testCase02" description="Search for &#039;iPhone&#039; and print the titles and discount % for items above 17% discount." finished-at="2025-02-17T10:24:17Z" duration-ms="6231" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTestMethod -->
-        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:18Z" name="beforeTestMethod" finished-at="2025-02-16T22:20:18Z" duration-ms="1" status="PASS">
+        </test-method> <!-- testCase02 -->
+        <test-method is-config="true" signature="beforeTestMethod(java.lang.reflect.Method)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:17Z" name="beforeTestMethod" finished-at="2025-02-17T10:24:17Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,11 +63,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestMethod -->
-        <test-method signature="testCase03()[pri:3, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:18Z" name="testCase03" description="Search for &#039;Coffee Mug&#039;, filter by 4-star customer rating, and print top 5 reviewed items." finished-at="2025-02-16T22:20:58Z" duration-ms="39571" status="PASS">
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:17Z" name="afterTestMethod" finished-at="2025-02-17T10:24:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCase02 status=SUCCESS method=TestCases.testCase02()[pri:2, instance:demo.TestCases@6e6d5d29] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method signature="testCase03()[pri:3, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:17Z" name="testCase03" description="Search for &#039;Coffee Mug&#039;, filter by 4-star customer rating, and print top 5 reviewed items." finished-at="2025-02-17T10:24:27Z" duration-ms="9769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase03 -->
-        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:58Z" name="afterTestMethod" finished-at="2025-02-16T22:20:58Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTestMethod(org.testng.ITestResult)[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:27Z" name="afterTestMethod" finished-at="2025-02-17T10:24:27Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,11 +89,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestMethod -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:58Z" name="endTest" finished-at="2025-02-16T22:20:58Z" duration-ms="719" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:27Z" name="endTest" finished-at="2025-02-17T10:24:28Z" duration-ms="806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-16T22:20:58Z" name="tearDownSuite" finished-at="2025-02-16T22:20:58Z" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:demo.TestCases@6e6d5d29]" started-at="2025-02-17T10:24:28Z" name="tearDownSuite" finished-at="2025-02-17T10:24:28Z" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
