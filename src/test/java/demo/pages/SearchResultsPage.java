@@ -107,14 +107,14 @@ public class SearchResultsPage {
                 WaitUtils.waitForVisibility(driver, item);
                 WebElement titleElement = item.findElement(By.xpath(".//a[@class='wjcEIp']"));
                 WebElement imageElement = item.findElement(By.xpath(".//a[@class='VJA3rP']//img"));
-                WebElement reviewsElement = item.findElement(By.xpath(".//span[@class='Wphh3N']"));
+                List<WebElement> reviewsElement = item.findElements(By.xpath(".//span[@class='Wphh3N']"));
 
                 HashMap<String, Object> details = new HashMap<>();
                 details.put("title", titleElement.getText().trim());
                 details.put("imageUrl", imageElement.getAttribute("src"));
                 
-                if (!reviewsElement.getText().isEmpty()) {
-                    int reviewCount = Integer.parseInt(reviewsElement.getText().replaceAll("[^0-9]", ""));
+                if (!reviewsElement.isEmpty()) {
+                    int reviewCount = Integer.parseInt(reviewsElement.get(0).getText().replaceAll("[^0-9]", ""));
                     details.put("reviews", reviewCount);
                 } else {
                     continue;
