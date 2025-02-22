@@ -1,0 +1,41 @@
+Flipkart Search Automation Test Suite
+
+Overview
+This project automates the validation of various Flipkart search functionalities, such as searching for products, sorting, filtering, and extracting relevant product details.
+
+Features Implemented
+Search Functionality Tests
+│── Search for 'Washing Machine', sort by 'Popularity', and count items with ratings ≤ 4.
+│── Search for 'iPhone' and print titles and discount percentages for items with a discount > 17%.
+│── Search for 'Coffee Mug', filter by 4-star customer rating, and print the top 5 reviewed items.
+
+Project Structure
+Project Root
+│── src/main/java/demo (Application source code)
+│── src/test/java/demo (Test cases and automation scripts)
+│── ExtentReports (Test reports generated after execution)
+│── src/test/java/resources (Configuration files, test data, etc.)
+│── build.gradle (Gradle dependencies and configuration)
+
+Prerequisites
+Before running the test suite, ensure you have the following installed:
+Java 11+
+Gradle
+Selenium WebDriver
+TestNG
+Browser Drivers (ChromeDriver, etc.)
+
+How to Execute the Tests
+Using Gradle
+│── Navigate to the project directory.
+│── Run the following command to execute all test cases:
+│── ./gradlew test
+    
+
+Test Reports
+After execution, test reports are available in:
+Gradle Reports: build/reports/tests/test/index.html
+TestNG Reports: ExtentReports/completeReport.html
+
+Contributors
+Praveen Muchandikar
